@@ -3,7 +3,7 @@ Deep learning model to classify Chest X Ray scan images between 3 classes includ
 
 
 
-#Description
+# Description
 This Coursera project aims to classify XRay scan images between 3 classes: Normal, Viral pneumonia and COVID-19. The project utilizes a dataset of images which can be found at Kaggle here. The dataset contains a total of 2,924 grayscale images with a significant class imbalance due to under-representation of the COVID-19 class.
 
 1,341 normal images
@@ -18,7 +18,7 @@ I use ResNet18 network, with weights pre-trained on ImageNet, only adjusting the
 I allow to fine-tune all model parameters during training
 Training conditions:
 
-#Adam optimizer with learning rate of 3e-5
+# Adam optimizer with learning rate of 3e-5
 Pytorch cross entropy loss function
 Batch size of 6
 Resized images to (224,224) and normalized as per model requierements
@@ -26,7 +26,7 @@ The model converges in less than one epoch and achieves an accuracy of over 98% 
 
 
 
-#How to use the notebook?
+# How to use the notebook?
 download the image dataset from Kaggle
 Download and run the notebook
 Results
